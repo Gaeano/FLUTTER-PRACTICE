@@ -1,6 +1,5 @@
 
 import 'package:flutter/material.dart';
-import 'package:testing/loadingScreen.dart';
 
 class OnboardingPage1 extends StatelessWidget {
   const OnboardingPage1({super.key});
@@ -37,14 +36,14 @@ class OnboardingPage1 extends StatelessWidget {
             bgColor: Colors.purple,
           ),
         ],
-        onSkip: (){
-          Navigator.pushReplacement(context, MaterialPageRoute( builder: (context) => const LoadingScreenMats(),),
-          );
-        },
-        onFinish: (){
-          Navigator.pushReplacement(context, MaterialPageRoute(builder:(context) => const LoadingScreenMats(),),
-          );
-        },
+        // onSkip: (){
+        //   Navigator.pushReplacement(context, MaterialPageRoute( builder: (context) => const LoadingScreenMats(),),
+        //   );
+        // },
+        // onFinish: (){
+        //   Navigator.pushReplacement(context, MaterialPageRoute(builder:(context) => const LoadingScreenMats(),),
+        //   );
+        // },
       ),
     );
   }
